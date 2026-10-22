@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
+  "packages": [
+    "python@3.12",
+    "python312Packages.requests@latest"
+  ],
+  "shell": {
+    "scripts": {
+      "list": "python3 nextcloud_list.py $@"
+    }
+  }
+}
